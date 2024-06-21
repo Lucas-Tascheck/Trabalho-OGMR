@@ -3,7 +3,7 @@ import 'dotenv/config'
 
 const host = process.env.HOST;
 const port = process.env.PORT; 
-community = process.env.COMMUNITY;
+const community = process.env.COMMUNITY;
 
 const oid = [1, 3, 6, 1, 2, 1, 1, 5, 0];
 

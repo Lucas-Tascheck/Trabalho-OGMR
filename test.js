@@ -1,8 +1,9 @@
 import snmp from "snmp-native"
+import 'dotenv/config'
 
-const host = '172.17.0.1';
-const port = 161; 
-community = "private"
+const host = process.env.HOST;
+const port = process.env.PORT; 
+community = process.env.COMMUNITY;
 
 const oid = [1, 3, 6, 1, 2, 1, 1, 5, 0];
 
